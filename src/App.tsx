@@ -6,9 +6,9 @@ import seal from "./CC_Seal_Red.jpg";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <h1 className="App-header">
+            <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript
-            </h1>
+            </header>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
@@ -30,9 +30,9 @@ function App(): JSX.Element {
                         <div className="red_rec"></div>
                         <p>Second column.</p>
                         <ul>
-                            <p>
+                            <h1>
                                 <b>My Work Roles:</b>
-                            </p>
+                            </h1>
                             <li>Instructor @ UDel</li>
                             <li>Sys Admin @ Craven County</li>
                             <li>Software Engineer @ USG</li>
